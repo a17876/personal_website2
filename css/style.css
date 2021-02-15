@@ -4,6 +4,39 @@ h1{
     text-align: center;
     padding: 20px;
 }
+h2{
+    margin: 20px
+}
+
+p{
+    height: 150px;
+    line-height: 30px;
+    margin: 10px;
+   
+}
+#heading{
+    font-family: Montserrat, sans-serif;
+}
+nav {
+    background-color: lightblue;
+    text-align: center;
+}
+.course{
+
+    height: 150px;
+    line-height: 30px;
+    margin: 50px;
+   
+}
+
+.article{
+
+    background-color: #F6F6F6;
+}
+.a2{
+    width:1032px;
+    background-color: #F6F6F6;
+}
 
 
 
