@@ -3,9 +3,10 @@
     text-align: center;
     padding: 10px;
 }
-nav {
-    
+body {
+    background-color: #EDDDD0;
 }
+
 ul {
     display: flex;
     justify-content:center;
@@ -15,10 +16,10 @@ li {
     padding:5px;
     margin:1px 10px 1px;
 }
+article {
 
-body{
-    background-color: floralwhite;
 }
+
 /* h1{
     color:#003399;
     background-color:#E6FFFF ;
@@ -47,14 +48,6 @@ p{
    
 }
 
-.article{
-
-    background-color: #F6F6F6;
-}
-.a2{
-    width:1032px;
-    background-color: #F6F6F6;
-}
 
 footer {
     background-color: #A6CAD4;
