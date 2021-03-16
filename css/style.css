@@ -20,6 +20,17 @@ body {
     padding:5px;
     margin:1px 10px 1px;
 }
+footer {
+    background-color: #A6CAD4;
+    text-align: center;
+    font-weight: bold;
+}
+@media screen and (min-width:600px){
+
+section{
+    height: 40em;
+}
+
 article {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -49,16 +60,6 @@ img{
 .course{
     height: 30em;
     line-height: 3em;
-    margin: 1em;
-   
+    margin: 1em;  
 }
-footer {
-    background-color: #A6CAD4;
-    text-align: center;
-    font-weight: bold;
 }
-section{
-    height: 40em;
-}
-
-
