@@ -9,15 +9,14 @@ body {
     background-color: #EDDDD0;
 }
 .navigation {
-    display: flex;
+    display: grid;
     justify-content:center;
     background-color: #A6CAD4;
     margin-top: 0;
 }
 .list {
     list-style-type: none;
-    padding:1rem;
-
+    padding:0.3rem 1rem;
 }
 footer {
     background-color: #A6CAD4;
@@ -31,6 +30,7 @@ footer {
 li{
     list-style-type: none; 
 }
+
 @media screen and (min-width:600px){
 .article{
     display: grid;
@@ -57,7 +57,12 @@ img{
     grid-column: 1/2;
     grid-row: 3/4;
 }
-
+.navigation {
+    display: flex;
+    justify-content:center;
+    background-color: #A6CAD4;
+    margin-top: 0;
+}
 @media screen and (min-width:600px){
 .course_grid{
     display: grid;
