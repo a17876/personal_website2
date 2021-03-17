@@ -25,10 +25,13 @@ footer {
 }
 .course{
     padding:0;
-    line-height: 1.5rem;
 }
 li{
     list-style-type: none; 
+}
+.content_1515,.content_1420{
+    border-bottom: grey 2px solid;
+    padding-bottom: 1rem;
 }
 
 @media screen and (min-width:600px){
@@ -67,7 +70,7 @@ img{
 .course_grid{
     display: grid;
     grid-template-columns: 0.8fr 2fr;
-    grid-template-rows:repeat(6, 0.5fr) ;
+    grid-template-rows:repeat(6, 0.8fr) ;
     }
 .title_1515{
     grid-column: 1/2;
@@ -76,10 +79,13 @@ img{
 .term_1515{
     grid-column: 1/2;
     grid-row:2/3;
+    border-bottom: grey 2px solid;
+    padding-bottom: 1rem;
 }
 .content_1515{
     grid-column: 2/3;
     grid-row:1/3;
+    border-bottom: grey 2px solid;
 }
 .title_1420{
     grid-column: 1/2;
@@ -88,10 +94,13 @@ img{
 .term_1420{
     grid-column: 1/2;
     grid-row:4/5;
+    border-bottom: grey 2px solid;
+    padding-bottom: 1rem;
 }
 .content_1420{
     grid-column: 2/3;
     grid-row:3/5;
+    border-bottom: grey 2px solid; 
 }
 .title_1116{
     grid-column: 1/2;
