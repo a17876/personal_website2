@@ -22,5 +22,5 @@ for (let i = 0; i < 3; ++i){
 
 if (resultIncludes === false){
   courseList.push({ code: `ACIT ${courseNum}`, name: null})
-  alert('suceed')
+  alert(`ACIT ${courseNum} is added successfully!`)
 }
