@@ -7,7 +7,7 @@ let courseList = [
 let courseNum;
 do {
     courseNum = prompt("Enter the 4-digit course number(e.g. 1420): ")
-} while (!isNaN(courseNum) === false || (isNaN(courseNum) === false && !courseNum.length === 4));
+} while (isNaN(courseNum) === true || isNaN(courseNum) === false && !(courseNum.length === 4));
 
 let resultIncludes = true;
 let index = null;
